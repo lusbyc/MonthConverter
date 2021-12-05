@@ -1,30 +1,30 @@
 #Week 3: Homework
 print('Month Converter')
 
-userInput = int(input("Please enter a number between 1 - 12: "))
+user_input = int(input("Please enter a number between 1 - 12: "))
 
-if not userInput < 1  and not userInput > 12:
-    if userInput == 1:
+if not user_input < 1  and not user_input > 12:
+    if user_input == 1:
         print('January')
-    elif userInput == 2:
+    elif user_input == 2:
         print('February')
-    elif userInput == 3:
+    elif user_input == 3:
         print('March')
-    elif userInput == 4:
+    elif user_input == 4:
         print('April')
-    elif userInput == 5:
+    elif user_input == 5:
         print('May')
-    elif userInput == 6:
+    elif user_input == 6:
         print('June')
-    elif userInput == 7:
+    elif user_input == 7:
         print('July')
-    elif userInput == 8:
+    elif user_input == 8:
         print('August')
-    elif userInput == 9:
+    elif user_input == 9:
         print('September')
-    elif userInput == 10:
+    elif user_input == 10:
         print('October')
-    elif userInput == 11:
+    elif user_input == 11:
         print('November')
     else:
         print('December')
